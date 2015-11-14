@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sixth Sense (1A2B)</string>
+    <string name="noll">O</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ok">OK</string>
+    <string name="dell">DELL</string>
+    <string name="z">&#8211;</string>
+    <string name="newg">Nytt spel</string>
+    <string name="history">Historia</string>
+    <string name="win">Du har vunnit!</string>
+    <string name="congratulation">Grattis!</string>
+    <string name="fill">Var snäll och fyll i alla fälten</string>
+    <string name="date">Datum: </string>
+    <string name="step">Steg: </string>
+    <string name="time">, Tid: </string>
+
+</resources>

@@ -1,0 +1,234 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94EA7E"
+    android:padding="5dp"
+    tools:context="com.natali007.sixthsense.MainActivity" 
+    android:id="@+id/tableLayout"
+     android:orientation="vertical">
+     
+<ListView
+     android:id="@+id/listv"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+      />
+
+  <RelativeLayout
+        android:id="@+id/layout_1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:background="#74BABC"
+        android:clickable="true"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+     
+        <EditText
+             android:id="@+id/num1"
+             android:layout_alignParentLeft="true"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:inputType="number"
+             android:focusable="false"
+            android:gravity="center_vertical|center"
+            android:text=""
+            android:textSize="18sp"
+            android:cursorVisible="false"
+            android:longClickable="false"
+            android:maxLength="1" >
+             <requestFocus />
+         </EditText>
+         
+         <EditText
+             android:id="@+id/num2"
+             android:layout_toRightOf="@id/num1"
+             android:layout_alignBaseline="@id/num1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:inputType="number"
+             android:focusable="false"
+            android:gravity="center_vertical|center"
+            android:text=""
+            android:textSize="18sp"
+            android:cursorVisible="false"
+            android:longClickable="false"
+            android:maxLength="1" >
+
+             <requestFocus />
+         </EditText>
+         
+       <EditText
+             android:id="@+id/num3"
+            android:layout_toRightOf="@id/num2"
+             android:layout_alignBaseline="@id/num2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:inputType="number"
+             android:focusable="false"
+            android:gravity="center_vertical|center"
+            android:text=""
+            android:textSize="18sp"
+            android:cursorVisible="false"
+            android:longClickable="false"
+            android:maxLength="1"  >
+
+             <requestFocus />
+         </EditText>
+         
+        <EditText
+             android:id="@+id/num4"
+             android:layout_toRightOf="@id/num3"
+             android:layout_alignBaseline="@id/num3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:inputType="number"
+             android:focusable="false"
+            android:gravity="center_vertical|center"
+            android:text=""
+            android:textSize="18sp"
+            android:cursorVisible="false"
+            android:longClickable="false"
+            android:maxLength="1" >
+
+             <requestFocus />
+         </EditText>
+
+         <Button
+             android:id="@+id/but1"
+             android:layout_below="@id/num1"
+             android:layout_alignParentLeft="true"
+             android:layout_width="40dp" 
+             android:layout_height="40dp" 
+             android:layout_gravity="center_horizontal" 
+             android:text="@string/one"
+             android:onClick="onClick" />
+         <Button
+             android:id="@+id/but2"
+             android:layout_toRightOf="@id/but1"
+             android:layout_alignBaseline="@id/but1"
+             android:layout_width="40dp" 
+             android:layout_height="40dp" 
+             android:layout_gravity="center_horizontal" 
+             android:text="@string/two"
+             android:onClick="onClick" />
+         <Button
+             android:id="@+id/but3"
+             android:layout_toRightOf="@id/but2"
+             android:layout_alignBaseline="@id/but2"
+             android:layout_width="40dp" 
+             android:layout_height="40dp" 
+             android:layout_gravity="center_horizontal" 
+             android:text="@string/three"
+             android:onClick="onClick" />
+         <Button
+             android:id="@+id/but4"
+             android:layout_below="@id/but1"
+             android:layout_alignParentLeft="true"
+             android:layout_width="40dp" 
+             android:layout_height="40dp"  
+             android:layout_gravity="center_horizontal" 
+             android:text="@string/four"
+             android:onClick="onClick"/>
+ 
+<Button
+             android:id="@+id/but5"
+             android:layout_toRightOf="@id/but4"
+             android:layout_alignBaseline="@id/but4"
+             android:layout_width="40dp" 
+             android:layout_height="40dp" 
+             android:layout_gravity="center_horizontal" 
+             android:text="@string/five"
+             android:onClick="onClick"/>
+         <Button
+             android:id="@+id/but6"
+             android:layout_toRightOf="@id/but5"
+             android:layout_alignBaseline="@id/but5"
+             android:layout_width="40dp" 
+             android:layout_height="40dp" 
+             android:layout_gravity="center_horizontal" 
+             android:text="@string/six"
+             android:onClick="onClick" />
+         <Button
+             android:id="@+id/but7"
+            android:layout_below="@id/but4"
+             android:layout_alignParentLeft="true"
+             android:layout_width="40dp" 
+             android:layout_height="40dp" 
+             android:layout_gravity="center_horizontal" 
+             android:text="@string/seven"
+             android:onClick="onClick" />
+         <Button
+             android:id="@+id/but8"
+             android:layout_toRightOf="@id/but7"
+             android:layout_alignBaseline="@id/but7"
+             android:layout_width="40dp" 
+             android:layout_height="40dp"  
+             android:layout_gravity="center_horizontal" 
+             android:text="@string/eight"
+             android:onClick="onClick" />
+         <Button
+             android:id="@+id/but9"
+             android:layout_toRightOf="@id/but8"
+             android:layout_alignBaseline="@id/but8"
+             android:layout_width="40dp" 
+             android:layout_height="40dp"  
+             android:layout_gravity="center_horizontal" 
+             android:text="@string/nine"
+             android:onClick="onClick"/> 
+                     
+     <Button
+             android:id="@+id/but0"
+             android:layout_below="@id/but7"
+             android:layout_alignParentLeft="true"
+             android:layout_width="120dp" 
+             android:layout_height="40dp" 
+             android:layout_gravity="center_horizontal" 
+             android:text="@string/noll"
+             android:onClick="onClick"
+              />     
+         
+  <Button
+     android:id="@+id/butdell"
+     android:layout_width="60dp"
+     android:layout_height="40dp"
+     android:layout_below="@id/but0"
+     android:layout_alignParentLeft="true"
+     android:layout_gravity="center_horizontal"
+     android:onClick="ondellClick"
+     android:text="@string/dell"
+ />
+          
+         <Button
+             android:id="@+id/butok"
+             android:layout_toRightOf="@id/butdell"
+             android:layout_alignBaseline="@id/butdell"
+             android:layout_width="60dp" 
+             android:layout_height="40dp" 
+             android:layout_gravity="center_horizontal" 
+             android:text="@string/ok" 
+             android:onClick="onokClick"
+            />   
+            
+     <Button
+     android:id="@+id/butnew"
+     android:layout_width="120dp"
+     android:layout_height="40dp"
+     android:layout_below="@id/butdell"
+     android:layout_gravity="center_horizontal"
+     android:onClick="onnewClick"
+     android:text="@string/newg"
+ />   
+  <Chronometer  
+      android:id="@+id/time"
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:layout_centerHorizontal="true"
+      android:textSize="20sp"
+      android:layout_below="@id/butnew"
+    />    
+                  
+</RelativeLayout>
+</RelativeLayout>

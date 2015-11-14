@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sixth Sense (1A2B)</string>
+    <string name="noll">O</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ok">OK</string>
+    <string name="dell">DELL</string>
+    <string name="z">&#8211;</string>
+    <string name="newg">New game</string>
+    <string name="history">History</string>
+    <string name="win">You are won!</string>
+    <string name="congratulation">Congratulation!</string>
+    <string name="fill">Please,fill in all fields</string>
+    <string name="date">Date: </string>
+    <string name="step">Step: </string>
+    <string name="time">, Time: </string>
+    
+
+</resources>
